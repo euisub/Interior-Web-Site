@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo-text"><a href="#">PF</a></div>
+            <ul class="login">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+        <div class="nev-container">
+            <ul class="nev-bar">
+                <li>
+                    <div class="nev-btn"><span></span>SHOP</div>
+                </li>
+                <li><a href="#best">BEST</a></li>
+                <li><a href="#promotion">PROMOTION</a></li>
+                <li><a href="#">EVENT</a></li>
+            </ul>
+            <ul class="icon">
+                <li><i class="xi-cart"></i></li>
+                <li><i class="xi-trash"></i></li>
+            </ul>
+
+
+        </div>
+    </header>
+
+
+    <div class="main-container">
+        <div class="dropdown">
+            <ul class="dropdown-content">
+                <li><a href="#">종합 인테리어</a>
+                    <ul class="dropdown-list">
+                        <li>종합상품</li>
+                        <li>거실 인테리어</li>
+                        <li>주방 인테리어</li>
+                        <li>침실 인테리어</li>
+                    </ul>
+                </li>
+                <li><a href="#">사무실 인테리어</a>
+                    <ul class="dropdown-list">
+                        <li>종합상품</li>
+                        <li>병원 인테리어</li>
+                        <li>음식점 인테리어</li>
+                        <li>PC방 인테리어</li>
+                    </ul>
+                </li>
+                <li><a href="#">인테리어 소품</a>
+                    <ul class="dropdown-list">
+                        <li>종합상품</li>
+                        <li>책상 / 의자</li>
+                        <li>주방 용품</li>
+                        <li>사무실 용품</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <section class="main-slider">
+
+            <div class="main-content">
+                <img src="images/main-1.png">
+                <!-- <h1 class="main-title">거실인테리어</h1>
+                <p class="main-text">아름다운</p> -->
+            </div>
+
+            <div class="main-content">
+                <img src="images/main-2.png">
+                <!-- <h1 class="main-title">거실인테리어</h1>
+                <p class="main-text">아름다운</p> -->
+            </div>
+
+            <div class="main-content">
+                <img src="images/main-3.png">
+                <!-- <h1 class="main-title">중후함과 세련됨을 공간에 담았다.</h1>
+                <p class="main-text">아름다운</p> -->
+
+            </div>
+
+            <div class="main-content">
+                <img src="images/main-4.png">
+                <!-- <h1 class="main-title">중후함과 세련됨을 공간에 담았다.</h1>
+                <p class="main-text">아름다운</p> -->
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <section class="best-container" id="best">
+        <div class="best-header">
+            <h1 class="best-h1">BEST</h1>
+        </div>
+
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">거실 인테리어</li>
+            <li class="tab-link" data-tab="tab-2">주방 인테리어</li>
+            <li class="tab-link" data-tab="tab-3">침실 인테리어</li>
+            <li class="tab-link" data-tab="tab-4">사무실 인테리어</li>
+            <li class="tab-link" data-tab="tab-5">인테리어 소품</li>
+        </ul>
+
+        <div id="tab-1" class="tab-content current">
+            <ul class="best-list">
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/livingroom-1.png" alt="livingroom 01"
+                                class="img-hover">
+                            <div class="best-absolute">
+                                <p class="best-sale">sale</p>
+                                <!-- <p class="best-new">new</p> -->
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/livingroom-2.png" alt="livingroom 01"
+                                class="img-hover">
+                            <div class="best-absolute">
+                                <p class="best-sale">sale</p>
+                                <p class="best-new">new</p>
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/livingroom-3.png" alt="livingroom 01"
+                                class="img-hover">
+                            <div class="best-absolute">
+                                <!-- <p class="best-sale">sale</p> -->
+                                <p class="best-new">new</p>
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/livingroom-4.png" alt="livingroom 01"
+                                class="img-hover"></div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="tab-2" class="tab-content">
+            <ul class="best-list">
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/kitchen-1.png" alt="livingroom 01" class="img-hover">
+                            <div class="best-absolute">
+                                <p class="best-sale">sale</p>
+                                <p class="best-new">new</p>
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/kitchen-2.png" alt="livingroom 01" class="img-hover">
+                            <div class="best-absolute">
+                                <!-- <p class="best-sale">sale</p> -->
+                                <p class="best-new">new</p>
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/kitchen-3.png" alt="livingroom 01" class="img-hover">
+                            <div class="best-absolute">
+                                <p class="best-sale">sale</p>
+                                <p class="best-new">new</p>
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/kitchen-4.png" alt="livingroom 01" class="img-hover">
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="tab-3" class="tab-content">
+            <ul class="best-list">
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/sleepingroom-1.png" alt="livingroom 01"
+                                class="img-hover">
+                            <div class="best-absolute">
+                                <p class="best-sale">sale</p>
+                                <!-- <p class="best-new">new</p> -->
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/sleepingroom-2.png" alt="livingroom 01"
+                                class="img-hover">
+                            <div class="best-absolute">
+                                <!-- <p class="best-sale">sale</p> -->
+                                <p class="best-new">new</p>
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/sleepingroom-3.png" alt="livingroom 01"
+                                class="img-hover">
+                            <div class="best-absolute">
+                                <p class="best-sale">sale</p>
+                                <p class="best-new">new</p>
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/sleepingroom-4.png" alt="livingroom 01"
+                                class="img-hover"></div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="tab-4" class="tab-content">
+            <ul class="best-list">
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/office-1.png" alt="livingroom 01" class="img-hover">
+                            <div class="best-absolute">
+                                <p class="best-sale">sale</p>
+                                <p class="best-new">new</p>
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/office-2.png" alt="livingroom 01" class="img-hover">
+                            <div class="best-absolute">
+                                <p class="best-sale">sale</p>
+                                <!-- <p class="best-new">new</p> -->
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/office-3.png" alt="livingroom 01" class="img-hover">
+                            <div class="best-absolute">
+                                <!-- <p class="best-sale">sale</p> -->
+                                <p class="best-new">new</p>
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/office-4.png" alt="livingroom 01" class="img-hover">
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="tab-5" class="tab-content">
+            <ul class="best-list">
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/props-1.png" alt="livingroom 01" class="img-hover">
+                            <div class="best-absolute">
+                                <p class="best-sale">sale</p>
+                                <!-- <p class="best-new">new</p> -->
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/props-2.png" alt="livingroom 01" class="img-hover">
+                            <div class="best-absolute">
+                                <p class="best-sale">sale</p>
+                                <p class="best-new">new</p>
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/props-3.png" alt="livingroom 01" class="img-hover">
+                            <div class="best-absolute">
+                                <!-- <p class="best-sale">sale</p> -->
+                                <p class="best-new">new</p>
+                            </div>
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="best-list-box">
+                        <div class="best-img-box"><img src="images/props-4.png" alt="livingroom 01" class="img-hover">
+                        </div>
+                        <div class="goods-container">
+                            <p class="goods-title">상품명</p>
+                            <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                            <p class="goods-price"><span class="price">19,000</span><span
+                                    class="discount-price">15,000</span> 21% <span class="goods-icon">&#9825;</span></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="promotion-container" id="promotion">
+        <div class="promotion-header">
+            <h1 class="promotion-h1">PROMOTION</h1>
+        </div>
+        <div class="pc-promotion">
+            <ul class="promotion-list">
+                <li><img src="images/promotion-1.png" alt="promotion 01" class="promotion-img"></li>
+                <li><img src="images/promotion-2.png" alt="promotion 02" class="promotion-img"></li>
+                <li><img src="images/promotion-3.png" alt="promotion 03" class="promotion-img"></li>
+                <li><img src="images/promotion-3.png" alt="promotion 04" class="promotion-img"></li>
+            </ul>
+        </div>
+        <div class="mobile-promotion">
+            <ul class="mobile-promotion-list">
+                <li><img src="images/promotion-1.png" alt="promotion 01" class="promotion-img"></li>
+                <li><img src="images/promotion-2.png" alt="promotion 02" class="promotion-img"></li>
+                <li><img src="images/promotion-3.png" alt="promotion 03" class="promotion-img"></li>
+                <li><img src="images/promotion-3.png" alt="promotion 04" class="promotion-img"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="new-container">
+        <div class="new-header">
+            <h1>NEW</h1>
+        </div>
+        <div class="pc-new">
+            <ul class="new-list">
+                <li>
+                    <div class="new-img-box"><img src="images/new-props-1.png" alt="newgodds1" class="img-hover"></div>
+                    <div class="goods-container">
+                        <p class="goods-title">상품명</p>
+                        <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                        <p class="goods-price"><span class="price">19,000</span><span
+                                class="discount-price">15,000</span>
+                            21% <span class="goods-icon">&#9825;</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="new-img-box"><img src="images/new-props-2.png" alt="newgodds2" class="img-hover"></div>
+                    <div class="goods-container">
+                        <p class="goods-title">상품명</p>
+                        <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                        <p class="goods-price"><span class="price">19,000</span><span
+                                class="discount-price">15,000</span>
+                            21% <span class="goods-icon">&#9825;</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="new-img-box"><img src="images/new-props-3.png" alt="newgodds3" class="img-hover"></div>
+                    <div class="goods-container">
+                        <p class="goods-title">상품명</p>
+                        <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                        <p class="goods-price"><span class="price">19,000</span><span
+                                class="discount-price">15,000</span>
+                            21% <span class="goods-icon">&#9825;</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="new-img-box"><img src="images/new-props-4.png" alt="newgodds4" class="img-hover"></div>
+                    <div class="goods-container">
+                        <p class="goods-title">상품명</p>
+                        <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                        <p class="goods-price"><span class="price">19,000</span><span
+                                class="discount-price">15,000</span>
+                            21% <span class="goods-icon">&#9825;</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="new-img-box"><img src="images/new-office-3.png" alt="newgodds5" class="img-hover"></div>
+                    <div class="goods-container">
+                        <p class="goods-title">상품명</p>
+                        <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                        <p class="goods-price"><span class="price">19,000</span><span
+                                class="discount-price">15,000</span>
+                            21% <span class="goods-icon">&#9825;</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="new-img-box"><img src="images/new-office-4.png" alt="newgodds6" class="img-hover"></div>
+                    <div class="goods-container">
+                        <p class="goods-title">상품명</p>
+                        <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                        <p class="goods-price"><span class="price">19,000</span><span
+                                class="discount-price">15,000</span>
+                            21% <span class="goods-icon">&#9825;</span></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-new">
+            <ul class="mobile-new-list">
+                <li>
+                    <div class="new-img-box"><img src="images/new-props-1.png" alt="newgodds1" class="img-hover"></div>
+                    <div class="goods-container">
+                        <p class="goods-title">상품명</p>
+                        <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                        <p class="goods-price"><span class="price">19,000</span><span
+                                class="discount-price">15,000</span>
+                            21% <span class="goods-icon">&#9825;</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="new-img-box"><img src="images/new-props-2.png" alt="newgodds2" class="img-hover"></div>
+                    <div class="goods-container">
+                        <p class="goods-title">상품명</p>
+                        <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                        <p class="goods-price"><span class="price">19,000</span><span
+                                class="discount-price">15,000</span>
+                            21% <span class="goods-icon">&#9825;</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="new-img-box"><img src="images/new-props-3.png" alt="newgodds3" class="img-hover"></div>
+                    <div class="goods-container">
+                        <p class="goods-title">상품명</p>
+                        <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                        <p class="goods-price"><span class="price">19,000</span><span
+                                class="discount-price">15,000</span>
+                            21% <span class="goods-icon">&#9825;</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="new-img-box"><img src="images/new-props-4.png" alt="newgodds4" class="img-hover"></div>
+                    <div class="goods-container">
+                        <p class="goods-title">상품명</p>
+                        <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                        <p class="goods-price"><span class="price">19,000</span><span
+                                class="discount-price">15,000</span>
+                            21% <span class="goods-icon">&#9825;</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="new-img-box"><img src="images/new-office-3.png" alt="newgodds5" class="img-hover"></div>
+                    <div class="goods-container">
+                        <p class="goods-title">상품명</p>
+                        <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                        <p class="goods-price"><span class="price">19,000</span><span
+                                class="discount-price">15,000</span>
+                            21% <span class="goods-icon">&#9825;</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="new-img-box"><img src="images/new-office-4.png" alt="newgodds6" class="img-hover"></div>
+                    <div class="goods-container">
+                        <p class="goods-title">상품명</p>
+                        <p class="goods-text">상품관련 코멘트입니다. 코멘트는 작성하시는만큼 노출됩니다. 샵에 맞게 조절하셔서 사용하세요.</p>
+                        <p class="goods-price"><span class="price">19,000</span><span
+                                class="discount-price">15,000</span>
+                            21% <span class="goods-icon">&#9825;</span></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="cafe-container">
+        <div class="pc-cafe">
+            <div class="cafe-content">
+                <img src="images/cafe-1.png" alt="cafe 01">
+                <img src="images/cafe-2.png" alt="cafe 02">
+            </div>
+        </div>
+        <div class="mobile-cafe">
+            <div class="mobile-cafe-content">
+                <img src="images/cafe-1.png" alt="cafe 01">
+                <img src="images/cafe-2.png" alt="cafe 02">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="review-container">
+        <div class="review-content">
+            <div class="review-header">
+                <h1>BEST REVIEW</h1>
+            </div>
+            <ul class="review-list">
+                <li><a href="#popup1"><img src="images/new-props-1.png" alt="review 01" class="review-img"></a>
+                    <div class="popup-info-content">
+                        <p class="popup-info-topic">엊그제 주문했는데 어제 저녁에 도착...</p>
+                        <div class="popup-info">
+                            <p class="popup-user">운영자</p>
+                            <p class="popup-user">2020/10/02</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#popup2"><img src="images/new-props-2.png" alt="review 02" class="review-img"></a>
+                    <div class="popup-info-content">
+                        <p class="popup-info-topic">빠른배송 감사합니다. 소품이 너무 ...</p>
+                        <div class="popup-info">
+                            <p class="popup-user">박보검</p>
+                            <p class="popup-user">2020/10/08</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#popup3"><img src="images/new-props-3.png" alt="review 03" class="review-img"></a>
+                    <div class="popup-info-content">
+                        <p class="popup-info-topic">집분위기와 너무 잘 맞는 소품이 여서...</p>
+                        <div class="popup-info">
+                            <p class="popup-user">송 강</p>
+                            <p class="popup-user">2020/12/02</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#popup4"><img src="images/new-props-4.png" alt="review 04" class="review-img"></a>
+                    <div class="popup-info-content">
+                        <p class="popup-info-topic">화분이 너무 이쁘고 세련되서 집이 ...</p>
+                        <div class="popup-info">
+                            <p class="popup-user">신의섭</p>
+                            <p class="popup-user">2021/03/02</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#popup5"><img src="images/new-office-3.png" alt="review 05" class="review-img"></a>
+                    <div class="popup-info-content">
+                        <p class="popup-info-topic">새롭게 새출발 하는데 인테리어가 ...</p>
+                        <div class="popup-info">
+                            <p class="popup-user">기안84</p>
+                            <p class="popup-user">2020/08/04</p>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+    <!-- 팝업창 ------------------------------------------------>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <a class="close" href="#0">&times;</a>
+            <div class="popup-header">
+                <img src="images/new-props-1.png" alt="" class="popup-img">
+                <p class="popup-title">의자</p>
+            </div>
+            <hr />
+            <section class="popup-content">
+                <div>
+                    <span class="popup-hart">&#9829;&#9829;&#9829;&#9829;</span>&#9825; <span class="popup-num">4</span>
+                </div>
+                <p class="popup-user">운영자 | 2020/10/02</p>
+                <p class="popup-topic">엊그제 주문했는데 어제 저녁에 제품이 도착했어요</p>
+                <p class="popup-text">
+                    빠른 배송 감사합니다.
+                </p>
+                <p class="popup-text">
+                    엊그제 주문했는데 어제 저녁에 제품이 도착했어요.
+                </p>
+            </section>
+            <hr />
+        </div>
+    </div>
+
+    <div id="popup2" class="overlay">
+        <div class="popup">
+            <a class="close" href="#0">&times;</a>
+            <div class="popup-header">
+                <img src="images/new-props-2.png" alt="" class="popup-img">
+                <p class="popup-title">조명 & 컵</p>
+            </div>
+            <hr />
+            <section class="popup-content">
+                <div>
+                    <span class="popup-hart">&#9829;&#9829;&#9829;&#9829;</span>&#9825; <span class="popup-num">4</span>
+                </div>
+                <p class="popup-user">박보검 | 2020/10/08</p>
+                <p class="popup-topic">빠른배송 감사합니다. 소품이 너무 예뻐요 대만족!</p>
+                <p class="popup-text">
+                    빠른 배송 감사합니다.
+                </p>
+                <p class="popup-text">
+                    빠른배송 감사합니다. 소품이 너무 예뻐요 대만족!
+                </p>
+            </section>
+            <hr />
+        </div>
+    </div>
+
+    <div id="popup3" class="overlay">
+        <div class="popup">
+            <a class="close" href="#0">&times;</a>
+            <div class="popup-header">
+                <img src="images/new-props-3.png" alt="" class="popup-img">
+                <p class="popup-title">조명</p>
+            </div>
+            <hr />
+            <section class="popup-content">
+                <div>
+                    <span class="popup-hart">&#9829;&#9829;&#9829;&#9829;&#9829;</span> <span class="popup-num">5</span>
+                </div>
+                <p class="popup-user">송 강 | 2020/12/02</p>
+                <p class="popup-topic">집분위기와 너무 잘 맞는 소품이 여서 대만족 입니다.</p>
+                <p class="popup-text">
+                    빠른 배송 감사합니다.
+                </p>
+                <p class="popup-text">
+                    집분위기와 너무 잘 맞는 소품이 여서 대만족 입니다.
+                </p>
+            </section>
+            <hr />
+        </div>
+    </div>
+
+    <div id="popup4" class="overlay">
+        <div class="popup">
+            <a class="close" href="#0">&times;</a>
+            <div class="popup-header">
+                <img src="images/new-props-4.png" alt="" class="popup-img">
+                <p class="popup-title">꽃병</p>
+            </div>
+            <hr />
+            <section class="popup-content">
+                <div>
+                    <span class="popup-hart">&#9829;&#9829;&#9829;&#9829;</span>&#9825; <span class="popup-num">4</span>
+                </div>
+                <p class="popup-user">신의섭 | 2021/03/02</p>
+                <p class="popup-topic">화분이 너무 이쁘고 세련되서 집이 달라보여요!</p>
+                <p class="popup-text">
+                    빠른 배송 감사합니다.
+                </p>
+                <p class="popup-text">
+                    화분이 너무 이쁘고 세련되서 집이 달라보여요!
+                </p>
+            </section>
+            <hr />
+        </div>
+    </div>
+
+    <div id="popup5" class="overlay">
+        <div class="popup">
+            <a class="close" href="#0">&times;</a>
+            <div class="popup-header">
+                <img src="images/office-3.png" alt="" class="popup-img">
+                <p class="popup-title">기안84</p>
+            </div>
+            <hr />
+            <section class="popup-content">
+                <div>
+                    <span class="popup-hart">&#9829;&#9829;&#9829;&#9829;&#9829;</span><span class="popup-num">5</span>
+                </div>
+                <p class="popup-user">운영자 | 2020/08/04</p>
+                <p class="popup-topic">새롭게 새출발 하는데 인테리어가 마음에 들어 출발이 좋네요</p>
+                <p class="popup-text">
+                    빠른 배송 감사합니다.
+                </p>
+                <p class="popup-text">
+                    새롭게 새출발 하는데 인테리어가 마음에 들어 출발이 좋네요 감사합니다.
+                </p>
+            </section>
+            <hr />
+        </div>
+    </div>
+    <!------------------------------------------------------------->
+
+    <section class="instagram-container">
+        <div class="instagram-header">
+            <h1>INSTAGRAM</h1>
+            <p>@pf_company</p>
+        </div>
+        <ul class="instagram-list">
+            <li><img src="images/livingroom-1.png" alt="" class="insta-img-size"></li>
+            <li><img src="images/kitchen-1.png" alt="" class="insta-img-size"></li>
+            <li><img src="images/sleepingroom-1.png" alt="" class="insta-img-size"></li>
+            <li><img src="images/office-1.png" alt="" class="insta-img-size"></li>
+            <li><img src="images/props-1.png" alt="" class="insta-img-size"></li>
+            <li><img src="images/props-2.png" alt="" class="insta-img-size"></li>
+
+        </ul>
+    </section>
+
+    <footer>
+        <div class="mobile-footer">
+            <hr class="hr-style" />
+            <button class="mobile-footer-button">
+                <p class="button-title">CS Center</p>
+                <div class="mobile-button-toggle-1">
+                    <span></span>
+                </div>
+            </button>
+            <div class="mobile-info">
+                <p class="info-num">00-0000-0000</p>
+                <p class="info-text">오전 10:00 ~ 18:00</p>
+                <p class="info-text">점심시간 오전 11:00 ~ 12:00</p>
+                <p class="info-text">(공휴일, 주말은 휴무입니다.)</p>
+                <p class="info-text-add">반품주소: 서울 강남구 어딘가</p>
+            </div>
+            <hr class="hr-style" />
+            <button class="mobile-footer-button-2">
+                <p class="button-title">Banking</p>
+                <div class="mobile-button-toggle-2">
+                    <span></span>
+                </div>
+            </button>
+            <div class="mobile-info-2">
+                <p class="info-text"><span class="info-bank">농협</span> 000000-00-000000 (주)PF</p>
+                <p class="info-text"><span class="info-bank">신한은행</span> 000000-00-000000 (주)PF</p>
+                <p class="info-text"><span class="info-bank">국민은행</span> 000000-00-000000 (주)PF</p>
+                <p class="info-text"><span class="info-bank">기업은행</span> 000000-00-000000 (주)PF</p>
+                <p class="info-text"><span class="info-bank">하나은행</span> 000000-00-000000 (주)PF</p>
+                <p class="info-text"><span class="info-bank">우리은행</span> 000000-00-000000 (주)PF</p>
+            </div>
+
+        </div>
+        <hr class="hr-style" />
+        <nev class="footer-nev">
+            <div class="footer-nev-left">
+                <ul class="footer-nev-list">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                </ul>
+                <ul class="footer-qa">
+                    <li><a href="#">NOTICE</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Q&A</a></li>
+                    <li><a href="#">REVIEW</a></li>
+                </ul>
+            </div>
+            <div class="footer-nev-right">
+                <ul class="footer-icon-list">
+                    <li> <i class="xi-instagram"></i></li>
+                    <li> <i class="xi-facebook"></i></li>
+                    <li> <i class="xi-twitter"></i></li>
+                    <li> <i class="xi-blogger"></i></li>
+                    <li> <i class="xi-youtube-play"></i></li>
+                    <li> <i class="xi-kakaostory"></i></li>
+                    <li> <i class="xi-kakaotalk"></i></li>
+                </ul>
+            </div>
+        </nev>
+        <hr class="hr-style" />
+        <section class="info-container">
+            <div class="info-content">
+                <div class="info-left">
+                    <p class="info-title">PF</p>
+                    <p class="info-text">상호: PF | 대표: 신의섭 | 전화: 010-9016-9278</p>
+                    <p class="info-text">이메일: dmltjq60@gmail.com | 주소: 인천 계양구 작전동</p>
+                    <p class="info-text">사업자등록증번호: 000-00-000000 <a href="#">[사업자정보확인]</a></p>
+                    <p class="info-text">통신판매업신고번호: 강남 제 OOO호 | 개인정보보호책임자: 개인정보보호책임자</p>
+                </div>
+                <div class="info-middle">
+                    <p class="info-middle-title">BANKING</p>
+                    <p class="info-text"><span class="info-bank">농협</span> 000000-00-000000 (주)PF</p>
+                    <p class="info-text"><span class="info-bank">신한은행</span> 000000-00-000000 (주)PF</p>
+                    <p class="info-text"><span class="info-bank">국민은행</span> 000000-00-000000 (주)PF</p>
+                    <p class="info-text"><span class="info-bank">기업은행</span> 000000-00-000000 (주)PF</p>
+                    <p class="info-text"><span class="info-bank">하나은행</span> 000000-00-000000 (주)PF</p>
+                    <p class="info-text"><span class="info-bank">우리은행</span> 000000-00-000000 (주)PF</p>
+                </div>
+                <div class="info-right">
+                    <p class="info-right-title">CUSTOMER CENTER</p>
+                    <p class="info-num">00-0000-0000</p>
+                    <p class="info-text">오전 10:00 ~ 18:00</p>
+                    <p class="info-text">점심시간 오전 11:00 ~ 12:00</p>
+                    <p class="info-text">(공휴일, 주말은 휴무입니다.)</p>
+                    <p class="info-text-add">반품주소: 서울 강남구 어딘가</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
